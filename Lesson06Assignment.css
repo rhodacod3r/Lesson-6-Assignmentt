@@ -1,7 +1,6 @@
-/* INTENTIONALLY NON-RESPONSIVE CSS FOR LESSON 6 ASSIGNMENT */
-/* =========================
-   RESET + BASE STYLES
-========================= */
+body {
+  background: red !important;
+}
 * {
   margin: 0;
   padding: 0;
