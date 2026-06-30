@@ -13,18 +13,12 @@ body {
   overflow-x: hidden;
 }
 
-/* =========================
-   HEADER
-========================= */
 .site-header img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* =========================
-   NAVIGATION (DESKTOP)
-========================= */
 .main-nav {
   background-color: #1f3d5a;
 }
@@ -46,9 +40,7 @@ body {
   font-weight: bold;
 }
 
-/* =========================
-   PAGE LAYOUT
-========================= */
+
 .page-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -70,9 +62,6 @@ body {
   margin: 0 auto;
 }
 
-/* =========================
-   TWO COLUMN LAYOUT
-========================= */
 .two-column {
   display: flex;
   gap: 20px;
@@ -93,9 +82,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* =========================
-   FOOTER
-========================= */
+
 .site-footer {
   background-color: #1f3d5a;
   color: white;
@@ -104,10 +91,7 @@ body {
   margin-top: 40px;
 }
 
-/* =========================
-   MOBILE RESPONSIVE
-   (320px – 425px)
-========================= */
+
 @media screen and (max-width: 425px) {
 
   .page-container {
@@ -137,7 +121,7 @@ body {
     font-size: 1rem;
   }
 
-  /* STACK COLUMNS */
+
   .two-column {
     flex-direction: column;
   }
